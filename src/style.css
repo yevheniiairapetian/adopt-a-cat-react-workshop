@@ -4,7 +4,14 @@
     justify-content: center;
 }
 
+.card:nth-child(odd){
+    background-color: green;
+}
+.card:nth-child(even){
+    background-color: blue;
+}
 .card {
+    display:inline-block;
     width: 150px;
     background-color: rgb(255, 255, 45);
     padding: 1rem;
