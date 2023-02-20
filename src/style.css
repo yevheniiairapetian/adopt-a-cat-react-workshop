@@ -1,0 +1,26 @@
+.deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+    background-color: rgb(255, 255, 45);
+    padding: 1rem;
+    margin: 0.25rem;
+    border: 2px solid black;
+    box-shadow:
+    0.5ch 0.5ch 0 0px black;
+    background-color: yellow;
+    opacity: 0.8;
+}
+
+.card:hover {
+    opacity: 1.0;
+}
+
+.card img {
+    max-width: 90%;
+    max-height: 6lh;
+}
