@@ -35,15 +35,14 @@ const Card = (props) =>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function animalsToReactComponents() {
-  return ( 
-  <div>
+const animalsToReactComponents = (object) => 
+<div>
       {animalsToAdopt.map((key) => (
         <Card name={key.name} picture={key.picture} />
       ))}
   </div>
-  ); 
-}
+
+      
 
 root.render(
   // [
